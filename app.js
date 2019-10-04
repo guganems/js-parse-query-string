@@ -19,6 +19,3 @@ class Url {
         }
     }
 }
-
-let url = new Url();
-console.log(url.gio);
