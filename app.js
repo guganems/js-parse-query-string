@@ -14,8 +14,7 @@ class Url {
         let searchArr = searchStr.substr(1).split('&');
         for (let each of searchArr) {
             let pair = each.split('=');
-            let key = pair[0];
-            this[key] = pair[1];
+            this[pair[0]] = pair[1];
         }
     }
 }
