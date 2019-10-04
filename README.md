@@ -1,11 +1,11 @@
-# Description
+## Description
 
 A tiny library for decode value of the query string using JS
 
-# Using
+## Using
 
 add this script
-```
+```html
 <script src="https://cdn.jsdelivr.net/gh/guganems/js-parse-query-string/app.js"></script>
 ```
 

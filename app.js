@@ -11,9 +11,9 @@ class Url {
     }
 
     searchStrToObj(searchStr) {
-        let searchArr = searchStr.substr(1).split('&');
+        let searchArr = searchStr.substr(1).split("&");
         for (let each of searchArr) {
-            let pair = each.split('=');
+            let pair = each.split("=");
             this[pair[0]] = pair[1];
         }
     }
