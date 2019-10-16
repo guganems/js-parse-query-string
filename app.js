@@ -10,7 +10,7 @@ class Url {
         this.origin = window.location.origin;
         this.pathname = window.location.pathname;
         this.port = window.location.port;
-        this.search = searchStr || window.location.search;
+        this.search = searchStr;
         this.searchStrToObj(this.search);
     }
 
