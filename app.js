@@ -2,7 +2,7 @@ const defaults = {
     search: window.location.search
 };
 
-class Url {
+class SimpleUrl {
     constructor (searchStr) {
         this.url = window.location;
         this.host = window.location.host;
