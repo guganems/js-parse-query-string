@@ -1,12 +1,16 @@
+const defaults = {
+    search: window.location.search
+};
+
 class Url {
-    constructor () {
+    constructor (searchStr) {
         this.url = window.location;
         this.host = window.location.host;
         this.hostname = window.location.hostname;
         this.origin = window.location.origin;
         this.pathname = window.location.pathname;
         this.port = window.location.port;
-        this.search = window.location.search;
+        this.search = searchStr || window.location.search;
         this.searchStrToObj(this.search);
     }
 
