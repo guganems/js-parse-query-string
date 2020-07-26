@@ -1,4 +1,4 @@
-const defaults = {
+defaults = {
     search: window.location.search
 };
 
