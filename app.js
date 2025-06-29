@@ -12,6 +12,7 @@ class SimpleUrl {
         this.port = window.location.port;
         this.search = searchStr;
         this.searchStrToObj(this.search);
+        console.log("YLEVO");
     }
 
     searchStrToObj(searchStr) {
